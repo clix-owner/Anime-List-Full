@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-09-01T07:56:11Z",
+  "builder_version": "v11.6-reconcile-validator-fixed",
+  "build_mode": "incremental",
+  "effective_full_reconciliation": false,
+  "schema": "Fribb anime-list-full compatible superset",
+  "main_file_has_custom_fields": false,
+  "source_changes": {
+    "fribb_baseline": false,
+    "base_mapping": true,
+    "animeapi": true,
+    "anidb_titles": true,
+    "scudlee": false
+  },
+  "final_file_sha256": "8e81cdc0a4db6010c73caf7eba66dc16d55a94e6f0bfc11ff8c0e8ded470942b",
+  "fribb_baseline": {
+    "records": 42870,
+    "with_mal_id": 30561,
+    "with_anilist_id": 20687,
+    "with_anidb_id": 15848,
+    "preservation_check": "not-required-in-incremental"
+  },
+  "anilist_official_verification": {
+    "targets": 10658,
+    "resolved": 949,
+    "rolling_daily_batch": 1000
+  },
+  "sources": [
+    "Fribb/anime-lists anime-list-full.json (baseline)",
+    "anime-and-manga/lists",
+    "MAL Official API v2",
+    "AniList GraphQL API",
+    "AniDB title dump",
+    "ScudLee/anime-lists",
+    "AnimeAPI",
+    "TMDB API"
+  ],
+  "counts": {
+    "records": 137501,
+    "with_mal_id": 30668,
+    "with_anilist_id": 22436,
+    "with_anidb_id": 16176,
+    "with_kitsu_id": 40185,
+    "with_animenewsnetwork_id": 42180,
+    "with_anime-planet_id": 54665,
+    "with_anisearch_id": 43349,
+    "with_livechart_id": 15444,
+    "with_simkl_id": 16509,
+    "with_animecountdown_id": 16509,
+    "with_tvdb_id": 8257,
+    "with_imdb_id": 8862,
+    "with_themoviedb_id": 9606,
+    "with_season": 7927,
+    "with_episode_offset": 706,
+    "records_above_fribb_baseline": 94631,
+    "new_records_appended_this_run": 0,
+    "fribb_rows_enriched": 0,
+    "fribb_updates_merged_into_previous": 0,
+    "fribb_new_records_merged_into_previous": 8674,
+    "new_mal_ids_detected": 0,
+    "records_updated": 1933,
+    "records_unchanged_after_recheck": 25105,
+    "anilist_verified": 949,
+    "anilist_conflicts_preserved_from_fribb": 0,
+    "fallback_title_matches": 2012,
+    "mal_without_anidb_mapping": 12336
+  }
+}

@@ -1,0 +1,10 @@
+anime-and-manga-full.json
+animeapi.json
+anime-titles.xml.gz
+anime-list-full.xml
+__pycache__/
+*.pyc
+
+.build-cache/
+
+fribb-anime-list-full.json
