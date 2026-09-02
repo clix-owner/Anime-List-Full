@@ -218,6 +218,6 @@ No builder stages were removed. The patch is intentionally surgical and keeps
 the v11.5 public publishing logic, dedup rules, caches, previous-OUR incremental
 architecture, and 10-hour workflow timeout.
 
-## GitHub Actions 403 download fallback
+## GitHub Actions source downloads
 
-The workflow uses retrying downloads with a custom User-Agent and fallback mirrors/CDNs for public datasets. This avoids intermittent HTTP 403 responses from shared GitHub Actions runner IPs, especially when an upstream endpoint redirects to `raw.githubusercontent.com` or blocks datacenter traffic.
+The workflow uses only the configured primary/original sources. AniDB `anime-titles.xml.gz` is downloaded with Python `urllib` using browser-like request headers instead of `curl`. There are no CDN, mirror, or third-party fallback sources; if an official source fails, the workflow fails.
