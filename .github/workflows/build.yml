@@ -208,7 +208,7 @@ jobs:
           git pull --rebase
           git push
 
-      - name: Publish databases to public repo
+      - name: Publish anime-list-full.json to public repo
         if: success()
         env:
           PUBLIC_DATA_REPO: ${{ secrets.PUBLIC_DATA_REPO }}
@@ -227,33 +227,37 @@ jobs:
             exit 1
           fi
 
-          echo "Publishing generated databases to: ${PUBLIC_DATA_REPO}"
+          echo "Publishing anime-list-full.json to: ${PUBLIC_DATA_REPO}"
           rm -rf /tmp/clix-public-data
           git clone "https://x-access-token:${PUBLIC_DATA_TOKEN}@github.com/${PUBLIC_DATA_REPO}.git" /tmp/clix-public-data
 
           cd /tmp/clix-public-data
-
-          # Publish ONLY the full anime database to the public repo.
           cp "$GITHUB_WORKSPACE/anime-list-full.json" ./anime-list-full.json
-
-          # Clean up artifacts published by older workflow versions.
-          rm -f anime-list-mini.json build-meta.json
-          if git ls-files --error-unmatch README.md >/dev/null 2>&1; then
-            rm -f README.md
-          fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Stage whatever actually changed in the public repo.
-          # Using plain `git add -A` also records deletions, without failing
-          # when old optional files are already absent.
-          git add -A
+          # Stage only this workflow's file. Do not delete or stage files
+          # maintained by other workflows in the shared public repository.
+          git add -- anime-list-full.json
 
           if git diff --cached --quiet; then
-            echo "Public database repo already up to date."
-          else
-            git commit -m "Update anime mapping database"
-            git push origin HEAD
+            echo "Public anime-list-full.json is already up to date."
+            exit 0
           fi
 
+          git commit -m "Update anime mapping database"
+
+          branch="$(git branch --show-current)"
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:${branch}"; then
+              exit 0
+            fi
+            echo "Push raced with another update; rebasing (attempt $attempt/5)..."
+            git fetch origin "$branch"
+            git rebase "origin/$branch"
+            sleep $((attempt * 2))
+          done
+
+          echo "Failed to publish after 5 attempts."
+          exit 1
