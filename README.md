@@ -221,3 +221,17 @@ architecture, and 10-hour workflow timeout.
 ## GitHub Actions source downloads
 
 The workflow uses only the configured primary/original sources. AniDB `anime-titles.xml.gz` is downloaded with Python `urllib` using browser-like request headers instead of `curl`. There are no CDN, mirror, or third-party fallback sources; if an official source fails, the workflow fails.
+
+## Automatic merge trigger
+
+When this source JSON changes, this workflow sends a GitHub
+`repository_dispatch` event named `anime-sources-updated` to the merge repo.
+
+Configure in this source repository:
+
+- `MERGE_REPO` — repository Variable (or Secret), e.g. `owner/anime-merge-repo`
+- `MERGE_DISPATCH_TOKEN` — repository Secret. Use a fine-grained PAT that can
+  access the merge repository and has **Contents: Read and write** permission.
+
+The dispatch is sent only when this workflow detects that its generated source
+JSON differs from the current copy on `origin/main`.
