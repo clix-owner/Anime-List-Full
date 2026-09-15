@@ -1,9 +1,9 @@
 {
   "source_hashes": {
     "fribb_baseline": "8b87867e81da9b3b61fbae9abf257639886634ae995d07f6d88ec97cfbca4a60",
-    "base_mapping": "9beb17099234ea5c1b0c5c4e842a88715c13ae71847ae5c68e07fdee5b463788",
+    "base_mapping": "8aa39dfd25d352cbc2ff19ae506f2fd128e47b4bf86d1555ead253eebe2de919",
     "animeapi": "4e0707816f2f80618852d45f3cbc703707eeaf4647dc411c658c26b843980cb9",
-    "anidb_titles": "77a958c9b6cb34ff44cb7ffaeea7cfcf0ff5cf9a6999454ce41e1075ee0ae8b2",
+    "anidb_titles": "acf0c16717a11e310385ad9af73ff7e187c6088e4fa6af0b56040bb8ad1018f1",
     "scudlee": "0d8efc2f586f4105d94858c53b8dd5ee4d0e7a9df7684c841d6b1b8d7156dd50"
   },
   "record_hashes": {
@@ -26391,7 +26391,7 @@
     "55446": "8b353356bd2d4acbd6e9a0aa12930b9f4789efff6c285992a859027ca194447e",
     "8767": "d6a075c66fd89d445ab29fa63e448d4eda3127c19ec234e31e7f4e42813c4f72",
     "13245": "fa45e75ba2b436a73ff3b4bce35765cd9f85cbc452bdea8dfc603091bb543526",
-    "62534": "2be4072bcc7b1048af7a7cc2749bffaea5f8d4d8375c9ef4925ba4b4e4e1acfe",
+    "62534": "0462d7794d69f4b42247160294655ee87156c6ba87ec2da0a78e25061acaf47c",
     "54907": "ead1ab5d4cfe09d58f8a5c7f0122e72d95ebf7733429285d4b7922d764357859",
     "2956": "6587680d38723bd4d68ad5f596282b4959903724ed25cfc4544d24fa373151b7",
     "26157": "c7d879aad223e2e052bb5e3d6a568e664a1f8fcb6db8de4a3d99c02821eacf0e",
@@ -30812,8 +30812,8 @@
     "64911": "74e114e94647f73c270468ff953787a70439639d5e005080039e3fad01efb8ac",
     "64912": "05eb58656ef3521384a3bcec84b5764113bc1ba75046f8ac6cbe0b18e5992ec1"
   },
-  "final_file_hash": "ddc6ab20ba630171d9f8acdcf3a3e85caf50dc12aad06d3f1df12ee873c83596",
-  "last_generated_at": "2026-09-14T02:42:57Z",
-  "anilist_cursor": 27000,
+  "final_file_hash": "0a835bca6d35e5efbc4bcf2f6fffc4260bfaaa7b2d5101f0af930a7c9a3094a5",
+  "last_generated_at": "2026-09-15T02:43:53Z",
+  "anilist_cursor": 28000,
   "fribb_baseline_hash": "8b87867e81da9b3b61fbae9abf257639886634ae995d07f6d88ec97cfbca4a60"
 }
