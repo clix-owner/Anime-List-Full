@@ -1,9 +1,9 @@
 {
   "source_hashes": {
     "fribb_baseline": "b48753b23f70ce2dfcc7891d4e592089a53b67974cc5272adff7c7bc83106c3b",
-    "base_mapping": "0e071af7c4e20c7f8fffed66ef35ec9967011f433f546e92d718b40e55bd098e",
-    "animeapi": "a6fdd49bc7b99e8af0e8f133abd0d645f3a8139bc03002bd738dd11ae6117f7d",
-    "anidb_titles": "7cd07e778adc8fca6fb85d266481bdfe06b2840f0da6e7932d70cb2d29494c7a",
+    "base_mapping": "a278e5081d5961b31150d8cc6cd054de673aa80b0fadf6092dcc5be9b5938ee4",
+    "animeapi": "6395dec8066e3cfb6c3d77244698b4be321d4e37f2023de0792c705990da6006",
+    "anidb_titles": "f18878819a8d92a0495997b96072374389d061b9ee7512d54f9b56738076815a",
     "scudlee": "0d8efc2f586f4105d94858c53b8dd5ee4d0e7a9df7684c841d6b1b8d7156dd50"
   },
   "record_hashes": {
@@ -30812,8 +30812,8 @@
     "64911": "74e114e94647f73c270468ff953787a70439639d5e005080039e3fad01efb8ac",
     "64912": "05eb58656ef3521384a3bcec84b5764113bc1ba75046f8ac6cbe0b18e5992ec1"
   },
-  "final_file_hash": "35b07df8445528dcce1924747433464940757fb1be6c4ea2782fec835caf77a1",
-  "last_generated_at": "2026-09-25T02:41:27Z",
-  "anilist_cursor": 7196,
+  "final_file_hash": "41c4e50305dc46415bcf050afae474f561cb9d7bdff92de7377d2cc859557c5b",
+  "last_generated_at": "2026-09-26T02:41:57Z",
+  "anilist_cursor": 8196,
   "fribb_baseline_hash": "b48753b23f70ce2dfcc7891d4e592089a53b67974cc5272adff7c7bc83106c3b"
 }
