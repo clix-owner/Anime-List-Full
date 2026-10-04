@@ -1,8 +1,21 @@
 [
   {
     "anilist_id": 195604,
-    "set": { "tvdb_id": 331753, "season": { "tvdb": 2 } },
-    "sources": ["https://www.thetvdb.com/series/black-clover/seasons/official/2", "https://anilist.co/anime/195604/Black-Clover-2nd-Season"],
-    "note": "Verified TVDB-only mapping. TMDB/IMDb coordinates remain absent pending separate verification."
+    "set": {
+      "tvdb_id": 331753,
+      "season": {
+        "tvdb": 2,
+        "tmdb": 2
+      },
+      "themoviedb_id": {
+        "tv": 73223
+      }
+    },
+    "sources": [
+      "https://www.thetvdb.com/series/black-clover/seasons/official/2",
+      "https://anilist.co/anime/195604/Black-Clover-2nd-Season",
+      "https://www.themoviedb.org/tv/73223/season/2/"
+    ],
+    "note": "TVDB Season 2 plus user-supplied TMDB series 73223 Season 2 page. Builder independently checks TMDB coordinates when API access is available. IMDb remains absent."
   }
 ]
