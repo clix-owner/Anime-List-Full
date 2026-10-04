@@ -156,6 +156,9 @@ jobs:
           print('OK GZIP/XML: anime-titles.xml.gz')
           PYVALIDATE
 
+      - name: Test mapping maintenance
+        run: python -m unittest discover -s tests -v
+
       - name: Resolve mode
         id: mode
         shell: bash
@@ -226,7 +229,9 @@ jobs:
             anime-list-mini.json \
             build-meta.json \
             build-diagnostics.json \
-            build-state.json
+            build-state.json \
+            mapping-quality-report.json \
+            anime-relations.json
 
           if git diff --cached --quiet; then
             echo "No dataset/state changes."

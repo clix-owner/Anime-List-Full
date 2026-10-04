@@ -1,0 +1,8 @@
+[
+  {
+    "anilist_id": 195604,
+    "set": { "tvdb_id": 331753, "season": { "tvdb": 2 } },
+    "sources": ["https://www.thetvdb.com/series/black-clover/seasons/official/2", "https://anilist.co/anime/195604/Black-Clover-2nd-Season"],
+    "note": "Verified TVDB-only mapping. TMDB/IMDb coordinates remain absent pending separate verification."
+  }
+]

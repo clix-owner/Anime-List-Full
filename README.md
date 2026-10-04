@@ -235,3 +235,8 @@ Configure in this source repository:
 
 The dispatch is sent only when this workflow detects that its generated source
 JSON differs from the current copy on `origin/main`.
+
+
+## v12 mapping maintenance
+
+See [UPGRADE.md](UPGRADE.md) for source-backed overrides, relation hints, independent provider coordinates and missing mapping reports. Existing generated files are snapshots; run the workflow to refresh them.

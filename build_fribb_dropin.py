@@ -25,9 +25,10 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 import xml.etree.ElementTree as ET
 import requests
+from mapping_quality import refresh_relations, apply_overrides, quality_report, verify_tmdb_overrides
 
 MAL_API = "https://api.myanimelist.net/v2"
-BUILDER_VERSION = "v11.6-reconcile-validator-fixed"
+BUILDER_VERSION = "v12.0-conservative-season-mappings"
 ANILIST_API = "https://graphql.anilist.co"
 TMDB_API = "https://api.themoviedb.org/3"
 
@@ -889,19 +890,9 @@ def enrich_tmdb(row, raw_ids):
             if f["movie"]:tmdb["movie"]=f["movie"];break
 
     if tmdb:row["themoviedb_id"]=tmdb
-    if isinstance(tmdb.get("tv"),int):
-        # Never overwrite an existing mapping. Fribb can intentionally have
-        # TVDB and TMDB season/episode offsets that differ.
-        if (
-            row.get("season",{}).get("tvdb") is not None
-            and row.get("season",{}).get("tmdb") is None
-        ):
-            row.setdefault("season",{})["tmdb"]=row["season"]["tvdb"]
-        if (
-            row.get("episode_offset",{}).get("tvdb") is not None
-            and row.get("episode_offset",{}).get("tmdb") is None
-        ):
-            row.setdefault("episode_offset",{})["tmdb"]=row["episode_offset"]["tvdb"]
+    # Provider season numbers and offsets are independent. Never infer TMDB
+    # coordinates by copying TVDB values. Verified mappings arrive upstream
+    # or through additive source-backed overrides.
 
 def merge_record(base, extra, overwrite=False):
     for k,v in extra.items():
@@ -1303,6 +1294,9 @@ def main():
         ):
             target_ids.update(mal_catalog_ids)
 
+        # Retry incomplete existing TV mappings even when source hashes match.
+        # Rolling verification bounds work per incremental run.
+        target_ids.update(mid for mid in anilist_verify_ids if mid in by_mal)
         target_ids.update(anilist_verify_ids)
 
         for pos, mid in enumerate(sorted(target_ids), 1):
@@ -1370,7 +1364,27 @@ def main():
             )
         log(f"Latest Fribb reconciliation: PASS ({len(fribb_rows)} baseline rows represented)")
 
+    overrides_path = Path("mapping-overrides.json")
+    overrides = json.loads(overrides_path.read_text(encoding="utf-8")) if overrides_path.exists() else []
+    if not isinstance(overrides, list):
+        raise ValueError("mapping-overrides.json must be a list")
+    rows, override_events = apply_overrides(rows, overrides, ALLOWED_KEYS)
     validate(rows)
+    relation_cache, relation_failures = refresh_relations(
+        rows,
+        lambda **kwargs: requests.post(ANILIST_API, headers={"Content-Type": "application/json", "Accept": "application/json"}, timeout=30, **kwargs),
+        WORK_CACHE_DIR / "anilist-relations.json",
+        limit=int(os.getenv("ANILIST_RELATION_DAILY_LIMIT", "100")),
+    )
+    report = quality_report(rows, relation_cache, override_events, relation_failures)
+    report["tmdb_override_verification"] = verify_tmdb_overrides(rows, overrides, tmdb_get)
+    write_json(Path("mapping-quality-report.json"), report, True)
+    write_json(Path("anime-relations.json"), {"schema_version": 1, "entries": relation_cache}, True)
+    diag["mapping_quality"] = {
+        "incomplete_tv_mappings": len(report["incomplete_tv_mappings"]),
+        "override_conflicts": sum(e["status"] == "conflict_preserved" for e in override_events),
+        "relation_fetch_failures": len(relation_failures),
+    }
 
     record_hashes = {}
     for row in rows:
