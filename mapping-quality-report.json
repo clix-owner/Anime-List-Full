@@ -267,7 +267,13 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 6964,
+          "mal_id": 6964
+        }
+      ]
     },
     {
       "anilist_id": 1293,
@@ -335,7 +341,13 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 428,
+          "mal_id": 428
+        }
+      ]
     },
     {
       "anilist_id": 250,
@@ -13425,8 +13437,7 @@
       "anilist_id": 195604,
       "mal_id": 61967,
       "missing": [
-        "imdb_id",
-        "themoviedb_id"
+        "imdb_id"
       ],
       "relations": []
     },
@@ -15490,7 +15501,13 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 395,
+          "mal_id": 395
+        }
+      ]
     },
     {
       "anilist_id": 395,
@@ -15499,7 +15516,13 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 384,
+          "mal_id": 384
+        }
+      ]
     },
     {
       "anilist_id": 212944,
@@ -16670,7 +16693,13 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 1563,
+          "mal_id": 1563
+        }
+      ]
     },
     {
       "anilist_id": 1563,
@@ -19681,9 +19710,32 @@
       "status": "already_present",
       "existing": 2,
       "proposed": 2
+    },
+    {
+      "anilist_id": 195604,
+      "field": "season",
+      "provider": "tmdb",
+      "status": "applied",
+      "existing": null,
+      "proposed": 2
+    },
+    {
+      "anilist_id": 195604,
+      "field": "themoviedb_id",
+      "provider": "tv",
+      "status": "applied",
+      "existing": null,
+      "proposed": 73223
     }
   ],
   "relation_fetch_failures": [],
   "note": "Relations never imply shared provider IDs or season numbers. Old inferred mappings require review.",
-  "tmdb_override_verification": []
+  "tmdb_override_verification": [
+    {
+      "anilist_id": 195604,
+      "tv_id": 73223,
+      "season": 2,
+      "status": "verified"
+    }
+  ]
 }
