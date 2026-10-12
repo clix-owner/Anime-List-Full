@@ -349,7 +349,13 @@
       "missing": [
         "imdb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 498,
+          "mal_id": 498
+        }
+      ]
     },
     {
       "anilist_id": 721,
@@ -5347,7 +5353,13 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 406,
+          "mal_id": 406
+        }
+      ]
     },
     {
       "anilist_id": 5908,
