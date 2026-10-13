@@ -1336,7 +1336,18 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 98239,
+          "mal_id": 34550
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 119346,
+          "mal_id": 35158
+        }
+      ]
     },
     {
       "anilist_id": 2703,
