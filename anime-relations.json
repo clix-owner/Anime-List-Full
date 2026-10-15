@@ -10544,6 +10544,770 @@
       "checked_at": 1791964504.8679676,
       "attempted_at": 1791964504.8679676,
       "relations": []
+    },
+    "3486": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3493": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 1835,
+          "mal_id": 1835
+        }
+      ]
+    },
+    "3499": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3500": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 8229,
+          "mal_id": 8229
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 178147,
+          "mal_id": 64216
+        }
+      ]
+    },
+    "3501": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 2032,
+          "mal_id": 2032
+        }
+      ]
+    },
+    "3503": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 6791,
+          "mal_id": 6791
+        }
+      ]
+    },
+    "3505": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 5396,
+          "mal_id": 5396
+        }
+      ]
+    },
+    "3514": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 5089,
+          "mal_id": 5089
+        }
+      ]
+    },
+    "3519": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 12497,
+          "mal_id": 12497
+        }
+      ]
+    },
+    "3545": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3549": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3550": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 153840,
+          "mal_id": 52071
+        }
+      ]
+    },
+    "3561": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3568": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3571": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3572": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 1398,
+          "mal_id": 1398
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 20680,
+          "mal_id": 28013
+        }
+      ]
+    },
+    "3573": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3576": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 5725,
+          "mal_id": 5725
+        }
+      ]
+    },
+    "3577": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3579": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 4486,
+          "mal_id": 4486
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 125640,
+          "mal_id": 43741
+        }
+      ]
+    },
+    "3588": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3594": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3604": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 3165,
+          "mal_id": 3165
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 6984,
+          "mal_id": 6984
+        }
+      ]
+    },
+    "3609": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3613": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 11001,
+          "mal_id": 11001
+        }
+      ]
+    },
+    "3614": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3615": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 4662,
+          "mal_id": 4662
+        }
+      ]
+    },
+    "3616": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3619": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3627": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 2595,
+          "mal_id": 2595
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 14827,
+          "mal_id": 14827
+        }
+      ]
+    },
+    "3630": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3631": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3637": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3638": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 2707,
+          "mal_id": 2707
+        }
+      ]
+    },
+    "3653": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 7540,
+          "mal_id": 7540
+        }
+      ]
+    },
+    "3654": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3655": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3656": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3660": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3667": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 6381,
+          "mal_id": 6381
+        }
+      ]
+    },
+    "3668": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3670": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3672": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3673": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3676": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 6577,
+          "mal_id": 6577
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 16131,
+          "mal_id": 16131
+        }
+      ]
+    },
+    "3683": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3689": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 3690,
+          "mal_id": 3690
+        }
+      ]
+    },
+    "3690": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 3689,
+          "mal_id": 3689
+        }
+      ]
+    },
+    "3691": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3692": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 1932,
+          "mal_id": 1932
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 162720,
+          "mal_id": 54716
+        }
+      ]
+    },
+    "3701": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3704": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3710": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3712": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 1840,
+          "mal_id": 1840
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 11319,
+          "mal_id": 11319
+        }
+      ]
+    },
+    "3713": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 1594,
+          "mal_id": 1594
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 98379,
+          "mal_id": 34966
+        }
+      ]
+    },
+    "3723": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3724": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3731": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3736": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3737": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 3738,
+          "mal_id": 3738
+        },
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 102103,
+          "mal_id": 30751
+        }
+      ]
+    },
+    "3738": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 3737,
+          "mal_id": 3737
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 5397,
+          "mal_id": 5397
+        }
+      ]
+    },
+    "3750": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 1729,
+          "mal_id": 1729
+        }
+      ]
+    },
+    "3754": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3761": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3765": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3768": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 3769,
+          "mal_id": 3769
+        },
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 9905,
+          "mal_id": 9905
+        }
+      ]
+    },
+    "3769": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 3768,
+          "mal_id": 3768
+        }
+      ]
+    },
+    "3772": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3776": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3800": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3806": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3807": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3808": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3809": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3810": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3811": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 126318,
+          "mal_id": 34014
+        }
+      ]
+    },
+    "3812": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3819": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3822": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3823": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3825": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3827": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3834": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3835": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3836": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3837": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 9403,
+          "mal_id": 9403
+        }
+      ]
+    },
+    "3838": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3839": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3840": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3841": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 6024,
+          "mal_id": 6024
+        }
+      ]
+    },
+    "3844": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3845": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3846": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3858": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 8139,
+          "mal_id": 8139
+        }
+      ]
+    },
+    "3859": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3869": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3870": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3873": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3874": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": []
+    },
+    "3875": {
+      "checked_at": 1792050034.0256538,
+      "attempted_at": 1792050034.0256538,
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 3356,
+          "mal_id": 3356
+        }
+      ]
     }
   }
 }
