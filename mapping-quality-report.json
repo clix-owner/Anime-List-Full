@@ -8829,7 +8829,13 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 20864,
+          "mal_id": 26163
+        }
+      ]
     },
     {
       "anilist_id": 213096,
@@ -9484,7 +9490,13 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 2716,
+          "mal_id": 2716
+        }
+      ]
     },
     {
       "anilist_id": 20957,
