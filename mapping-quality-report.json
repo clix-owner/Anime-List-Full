@@ -9646,7 +9646,13 @@
       "missing": [
         "imdb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 98553,
+          "mal_id": 35332
+        }
+      ]
     },
     {
       "anilist_id": 8244,
@@ -10099,7 +10105,18 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 21048,
+          "mal_id": 29099
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 98764,
+          "mal_id": 33099
+        }
+      ]
     },
     {
       "anilist_id": 21344,
@@ -10397,7 +10414,13 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 104469,
+          "mal_id": 31965
+        }
+      ]
     },
     {
       "anilist_id": 108747,
@@ -10648,7 +10671,18 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 98763,
+          "mal_id": 30875
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 98765,
+          "mal_id": 35295
+        }
+      ]
     },
     {
       "anilist_id": 21724,
@@ -11107,7 +11141,13 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 21876,
+          "mal_id": 33690
+        }
+      ]
     },
     {
       "anilist_id": 116053,
@@ -11398,7 +11438,18 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 98764,
+          "mal_id": 33099
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 109930,
+          "mal_id": 37630
+        }
+      ]
     },
     {
       "anilist_id": 3499,
@@ -11417,7 +11468,18 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 21600,
+          "mal_id": 32572
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 101523,
+          "mal_id": 37369
+        }
+      ]
     },
     {
       "anilist_id": 98553,
@@ -11425,7 +11487,13 @@
       "missing": [
         "imdb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 98552,
+          "mal_id": 18205
+        }
+      ]
     },
     {
       "anilist_id": 188055,
@@ -11535,7 +11603,13 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 114843,
+          "mal_id": 36520
+        }
+      ]
     },
     {
       "anilist_id": 99391,
@@ -11544,7 +11618,13 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 97862,
+          "mal_id": 34402
+        }
+      ]
     },
     {
       "anilist_id": 117285,
@@ -11809,7 +11889,18 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 21796,
+          "mal_id": 33240
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 175120,
+          "mal_id": 58196
+        }
+      ]
     },
     {
       "anilist_id": 100910,
@@ -16332,7 +16423,18 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 21648,
+          "mal_id": 32717
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 213814,
+          "mal_id": 64541
+        }
+      ]
     },
     {
       "anilist_id": 20181,
@@ -17289,7 +17391,18 @@
       "missing": [
         "imdb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 97889,
+          "mal_id": 34096
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 100784,
+          "mal_id": 36838
+        }
+      ]
     },
     {
       "anilist_id": 100784,
@@ -19168,7 +19281,13 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 87479,
+          "mal_id": 33835
+        }
+      ]
     },
     {
       "anilist_id": 208824,
