@@ -1,10 +1,10 @@
 {
   "build_mode": "incremental",
-  "existing_records": 565478,
+  "existing_records": 570967,
   "fribb_baseline_records": 39664,
   "source_changes": {
     "fribb_baseline": false,
-    "base_mapping": false,
+    "base_mapping": true,
     "animeapi": true,
     "anidb_titles": true,
     "scudlee": false
@@ -1087,6 +1087,7 @@
     54506,
     54516,
     54533,
+    54581,
     54594,
     54624,
     54748,
@@ -1562,6 +1563,7 @@
     59642,
     59650,
     59651,
+    59685,
     59724,
     59747,
     59748,
@@ -1599,8 +1601,6 @@
     60959,
     60974,
     60975,
-    60979,
-    60990,
     61088,
     61260,
     61261,
@@ -20016,7 +20016,6 @@
     51586,
     51587,
     51589,
-    51594,
     51595,
     51596,
     51597,
@@ -20043,13 +20042,9 @@
     51646,
     51648,
     51653,
-    51655,
     51656,
     51658,
     51661,
-    51662,
-    51663,
-    51664,
     51665,
     51673,
     51677,
@@ -20063,23 +20058,15 @@
     51687,
     51688,
     51692,
-    51693,
     51694,
     51695,
     51702,
     51705,
-    51706,
     51710,
     51711,
     51716,
-    51721,
-    51722,
-    51723,
     51726,
-    51727,
     51735,
-    51736,
-    51737,
     51738,
     51741,
     51746,
@@ -20088,10 +20075,8 @@
     51750,
     51751,
     51752,
-    51753,
     51754,
     51755,
-    51756,
     51757,
     51758,
     51759,
@@ -20124,20 +20109,16 @@
     51809,
     51810,
     51811,
-    51812,
     51813,
     51814,
     51815,
     51816,
-    51817,
     51818,
     51819,
     51821,
-    51822,
     51823,
     51824,
     51825,
-    51828,
     51830,
     51832,
     51834,
@@ -20148,7 +20129,6 @@
     51846,
     51847,
     51848,
-    51849,
     51850,
     51851,
     51853,
@@ -20157,8 +20137,6 @@
     51860,
     51861,
     51862,
-    51863,
-    51864,
     51865,
     51866,
     51867,
@@ -20177,21 +20155,16 @@
     51888,
     51889,
     51891,
-    51893,
     51897,
     51898,
     51901,
-    51903,
     51910,
     51911,
     51912,
     51913,
-    51915,
     51916,
     51919,
     51920,
-    51921,
-    51922,
     51923,
     51934,
     51936,
@@ -20211,19 +20184,14 @@
     51966,
     51967,
     51968,
-    51974,
     51986,
-    51988,
     51989,
     51991,
     51992,
     51993,
     51995,
     51997,
-    52000,
     52002,
-    52003,
-    52004,
     52005,
     52006,
     52008,
@@ -20232,7 +20200,6 @@
     52011,
     52015,
     52016,
-    52019,
     52020,
     52022,
     52023,
@@ -20272,7 +20239,6 @@
     52080,
     52081,
     52082,
-    52085,
     52090,
     52092,
     52093,
@@ -20280,9 +20246,7 @@
     52096,
     52100,
     52101,
-    52102,
     52103,
-    52104,
     52105,
     52107,
     52130,
@@ -20309,21 +20273,17 @@
     52157,
     52158,
     52159,
-    52162,
     52168,
     52173,
     52178,
     52180,
     52182,
-    52185,
     52186,
     52187,
     52190,
     52192,
     52193,
-    52195,
     52196,
-    52197,
     52198,
     52199,
     52200,
@@ -20334,7 +20294,6 @@
     52215,
     52216,
     52219,
-    52220,
     52221,
     52222,
     52223,
@@ -20351,39 +20310,25 @@
     52239,
     52240,
     52243,
-    52244,
-    52245,
     52247,
     52251,
-    52252,
-    52254,
     52259,
     52261,
     52265,
-    52267,
-    52268,
-    52269,
-    52270,
-    52271,
     52273,
     52274,
     52275,
-    52281,
     52282,
     52289,
     52292,
-    52293,
     52295,
     52299,
     52301,
     52302,
     52304,
     52305,
-    52307,
     52308,
     52316,
-    52318,
-    52319,
     52322,
     52329,
     52334,
@@ -20401,10 +20346,8 @@
     52348,
     52352,
     52354,
-    52355,
     52357,
     52359,
-    52364,
     52365,
     52367,
     52368,
@@ -20413,7 +20356,6 @@
     52371,
     52372,
     52378,
-    52381,
     52382,
     52383,
     52384,
@@ -20422,20 +20364,13 @@
     52395,
     52397,
     52399,
-    52402,
     52405,
     52407,
     52411,
     52413,
-    52417,
     52420,
     52421,
     52433,
-    52438,
-    52440,
-    52443,
-    52446,
-    52450,
     52452,
     52454,
     52460,
@@ -20482,7 +20417,6 @@
     52553,
     52558,
     52559,
-    52561,
     52562,
     52566,
     52567,
@@ -20490,7 +20424,6 @@
     52569,
     52571,
     52573,
-    52575,
     52576,
     52578,
     52579,
@@ -20512,7 +20445,6 @@
     52614,
     52615,
     52616,
-    52617,
     52618,
     52619,
     52620,
@@ -20573,25 +20505,20 @@
     52714,
     52715,
     52716,
-    52717,
     52732,
     52733,
     52734,
     52735,
-    52736,
     52737,
     52738,
     52740,
     52741,
     52742,
-    52743,
     52744,
     52745,
     52747,
     52748,
-    52750,
     52751,
-    52752,
     52753,
     52754,
     52755,
@@ -20620,7 +20547,6 @@
     52815,
     52816,
     52822,
-    52823,
     52824,
     52826,
     52827,
@@ -20647,7 +20573,6 @@
     52856,
     52857,
     52858,
-    52859,
     52863,
     52864,
     52865,
@@ -20674,7 +20599,6 @@
     52898,
     52899,
     52900,
-    52904,
     52906,
     52907,
     52908,
@@ -20684,8 +20608,6 @@
     52917,
     52919,
     52921,
-    52923,
-    52924,
     52926,
     52928,
     52931,
@@ -20746,7 +20668,6 @@
     53013,
     53014,
     53015,
-    53017,
     53019,
     53020,
     53021,
@@ -20765,7 +20686,6 @@
     53035,
     53036,
     53037,
-    53038,
     53040,
     53042,
     53043,
@@ -20777,14 +20697,10 @@
     53050,
     53055,
     53059,
-    53060,
-    53061,
-    53062,
     53065,
     53066,
     53067,
     53069,
-    53070,
     53071,
     53074,
     53075,
@@ -20802,7 +20718,6 @@
     53089,
     53090,
     53091,
-    53092,
     53093,
     53094,
     53095,
@@ -20811,8 +20726,6 @@
     53098,
     53101,
     53102,
-    53109,
-    53110,
     53111,
     53112,
     53115,
@@ -20821,19 +20734,16 @@
     53118,
     53119,
     53121,
-    53122,
     53125,
     53126,
     53127,
     53128,
     53129,
-    53130,
     53131,
     53132,
     53135,
     53136,
     53137,
-    53138,
     53139,
     53143,
     53144,
@@ -20846,8 +20756,6 @@
     53154,
     53155,
     53156,
-    53157,
-    53158,
     53159,
     53161,
     53162,
@@ -20862,8 +20770,6 @@
     53179,
     53182,
     53183,
-    53185,
-    53186,
     53187,
     53188,
     53192,
@@ -20873,14 +20779,10 @@
     53199,
     53200,
     53202,
-    53204,
     53205,
     53206,
     53207,
     53208,
-    53209,
-    53213,
-    53214,
     53215,
     53216,
     53218,
@@ -20888,7 +20790,6 @@
     53222,
     53223,
     53226,
-    53229,
     53230,
     53231,
     53235,
@@ -20897,16 +20798,12 @@
     53242,
     53244,
     53245,
-    53246,
     53248,
     53249,
     53251,
     53254,
-    53257,
-    53258,
     53259,
     53260,
-    53262,
     53263,
     53265,
     53266,
@@ -20925,9 +20822,11 @@
     53287,
     53288,
     53291,
+    53294,
     53298,
     53299,
     53300,
+    53314,
     53315,
     53316,
     53320,
@@ -20946,6 +20845,7 @@
     53340,
     53341,
     53355,
+    53356,
     53365,
     53367,
     53371,
@@ -20972,18 +20872,24 @@
     53408,
     53409,
     53410,
+    53411,
     53414,
     53421,
+    53424,
+    53425,
     53426,
+    53428,
     53432,
     53433,
     53434,
     53437,
     53438,
     53439,
+    53443,
     53445,
     53446,
     53447,
+    53448,
     53449,
     53450,
     53473,
@@ -20992,11 +20898,13 @@
     53479,
     53488,
     53491,
+    53492,
     53494,
     53498,
     53500,
     53501,
     53502,
+    53506,
     53508,
     53509,
     53512,
@@ -21008,7 +20916,9 @@
     53523,
     53525,
     53526,
+    53529,
     53530,
+    53534,
     53540,
     53560,
     53573,
@@ -21018,12 +20928,15 @@
     53584,
     53585,
     53586,
+    53587,
     53588,
     53589,
     53590,
     53593,
     53595,
+    53598,
     53599,
+    53601,
     53603,
     53604,
     53606,
@@ -21050,13 +20963,17 @@
     53646,
     53648,
     53649,
+    53650,
     53653,
     53654,
     53655,
     53657,
+    53658,
+    53659,
     53662,
     53663,
     53665,
+    53666,
     53667,
     53669,
     53670,
@@ -21066,8 +20983,11 @@
     53674,
     53675,
     53676,
+    53677,
+    53678,
     53679,
     53680,
+    53682,
     53684,
     53685,
     53686,
@@ -21076,14 +20996,24 @@
     53690,
     53696,
     53698,
+    53699,
+    53700,
+    53702,
     53703,
+    53705,
     53709,
     53710,
     53711,
     53712,
     53716,
+    53717,
+    53718,
     53720,
+    53721,
+    53722,
     53723,
+    53724,
+    53725,
     53726,
     53727,
     53728,
@@ -21093,28 +21023,38 @@
     53732,
     53733,
     53738,
+    53740,
     53744,
     53746,
+    53747,
     53748,
     53749,
     53750,
     53751,
+    53754,
     53755,
     53756,
     53757,
     53758,
+    53759,
+    53762,
     53767,
     53770,
+    53773,
+    53774,
     53776,
     53777,
     53779,
     53780,
+    53781,
     53783,
     53787,
     53788,
     53789,
+    53790,
     53794,
     53801,
+    53802,
     53810,
     53817,
     53818,
@@ -21125,11 +21065,14 @@
     53829,
     53830,
     53832,
+    53833,
     53835,
     53840,
     53842,
     53843,
+    53844,
     53848,
+    53849,
     53850,
     53851,
     53852,
@@ -21140,6 +21083,8 @@
     53860,
     53861,
     53865,
+    53866,
+    53867,
     53868,
     53872,
     53873,
@@ -21152,10 +21097,12 @@
     53882,
     53883,
     53884,
+    53887,
     53888,
     53889,
     53890,
     53893,
+    53895,
     53901,
     53902,
     53905,
@@ -21184,6 +21131,7 @@
     53943,
     53944,
     53945,
+    53946,
     53948,
     53951,
     53953,
@@ -21232,8 +21180,10 @@
     54009,
     54010,
     54011,
+    54012,
     54013,
     54014,
+    54015,
     54016,
     54017,
     54018,
@@ -21241,6 +21191,7 @@
     54022,
     54024,
     54026,
+    54027,
     54028,
     54029,
     54030,
@@ -21251,6 +21202,7 @@
     54036,
     54037,
     54038,
+    54040,
     54041,
     54042,
     54045,
@@ -21275,6 +21227,7 @@
     54072,
     54074,
     54075,
+    54076,
     54077,
     54078,
     54079,
@@ -21296,9 +21249,12 @@
     54096,
     54097,
     54100,
+    54101,
     54102,
     54103,
     54105,
+    54107,
+    54108,
     54109,
     54111,
     54112,
@@ -21363,13 +21319,16 @@
     54217,
     54218,
     54224,
+    54225,
     54227,
     54228,
     54229,
     54230,
     54232,
+    54233,
     54234,
     54242,
+    54245,
     54247,
     54249,
     54250,
@@ -21380,6 +21339,7 @@
     54261,
     54262,
     54263,
+    54265,
     54267,
     54268,
     54269,
@@ -21387,10 +21347,12 @@
     54272,
     54273,
     54274,
+    54275,
     54276,
     54278,
     54279,
     54280,
+    54281,
     54282,
     54284,
     54285,
@@ -21408,15 +21370,20 @@
     54299,
     54300,
     54301,
+    54308,
     54309,
     54312,
+    54313,
     54316,
     54317,
     54318,
     54322,
+    54323,
+    54324,
     54325,
     54329,
     54330,
+    54331,
     54334,
     54335,
     54337,
@@ -21425,16 +21392,19 @@
     54344,
     54346,
     54352,
+    54353,
     54354,
     54355,
     54357,
     54359,
+    54360,
     54361,
     54362,
     54364,
     54367,
     54368,
     54369,
+    54375,
     54380,
     54383,
     54388,
@@ -21449,19 +21419,28 @@
     54404,
     54405,
     54406,
+    54411,
     54412,
     54413,
+    54415,
+    54416,
     54417,
     54418,
+    54419,
+    54420,
     54421,
     54422,
+    54424,
     54425,
+    54426,
+    54427,
     54428,
     54429,
     54430,
     54431,
     54434,
     54437,
+    54440,
     54441,
     54442,
     54447,
@@ -21470,8 +21449,10 @@
     54453,
     54454,
     54455,
+    54456,
     54458,
     54460,
+    54461,
     54462,
     54463,
     54464,
@@ -21502,15 +21483,18 @@
     54515,
     54517,
     54518,
+    54519,
     54521,
     54524,
     54525,
     54529,
+    54534,
     54535,
     54536,
     54538,
     54539,
     54540,
+    54541,
     54544,
     54545,
     54546,
@@ -21533,10 +21517,13 @@
     54567,
     54568,
     54572,
+    54573,
+    54574,
     54575,
     54576,
     54580,
     54582,
+    54583,
     54595,
     54596,
     54602,
@@ -21544,11 +21531,16 @@
     54616,
     54617,
     54618,
+    54622,
+    54623,
+    54629,
     54630,
     54631,
     54632,
     54633,
+    54636,
     54637,
+    54638,
     54643,
     54644,
     54646,
@@ -21567,7 +21559,11 @@
     54674,
     54675,
     54678,
+    54683,
     54684,
+    54687,
+    54688,
+    54692,
     54693,
     54697,
     54703,
@@ -21578,6 +21574,7 @@
     54716,
     54717,
     54718,
+    54722,
     54723,
     54724,
     54725,
@@ -21620,10 +21617,13 @@
     54787,
     54789,
     54790,
+    54791,
+    54792,
     54793,
     54794,
     54796,
     54797,
+    54798,
     54803,
     54804,
     54805,
@@ -21635,15 +21635,20 @@
     54814,
     54829,
     54832,
+    54833,
     54834,
     54835,
     54837,
     54838,
+    54839,
     54841,
     54842,
     54846,
     54847,
     54848,
+    54849,
+    54850,
+    54851,
     54852,
     54853,
     54854,
@@ -21681,11 +21686,14 @@
     54900,
     54902,
     54904,
+    54907,
     54909,
     54911,
+    54912,
     54913,
     54914,
     54915,
+    54916,
     54917,
     54918,
     54919,
@@ -21700,6 +21708,7 @@
     54945,
     54947,
     54949,
+    54953,
     54959,
     54968,
     54972,
@@ -21707,11 +21716,13 @@
     54974,
     54976,
     54987,
+    54989,
     54991,
     54992,
     54993,
     54996,
     54997,
+    55003,
     55004,
     55005,
     55006,
@@ -24109,7 +24120,6 @@
     59682,
     59683,
     59684,
-    59685,
     59687,
     59688,
     59689,
@@ -24891,12 +24901,14 @@
     60971,
     60972,
     60973,
+    60979,
     60983,
     60984,
     60985,
     60986,
     60987,
     60988,
+    60990,
     60991,
     60994,
     60995,
@@ -36186,6 +36198,11 @@
       "mal_id": 59651,
       "anidb_id": 11304,
       "title": "Mukashi no Kotoba wa Ikiteiru"
+    },
+    {
+      "mal_id": 59685,
+      "anidb_id": 20544,
+      "title": "Yongisanda"
     },
     {
       "mal_id": 59688,
@@ -65766,10 +65783,6 @@
       "title": "Nomino Sukune"
     },
     {
-      "mal_id": 51594,
-      "title": null
-    },
-    {
       "mal_id": 51595,
       "title": null
     },
@@ -65834,10 +65847,6 @@
       "title": "Jarinko Chie (TV) Special"
     },
     {
-      "mal_id": 51655,
-      "title": null
-    },
-    {
       "mal_id": 51656,
       "title": null
     },
@@ -65847,18 +65856,6 @@
     },
     {
       "mal_id": 51661,
-      "title": null
-    },
-    {
-      "mal_id": 51662,
-      "title": null
-    },
-    {
-      "mal_id": 51663,
-      "title": null
-    },
-    {
-      "mal_id": 51664,
       "title": null
     },
     {
@@ -65898,26 +65895,6 @@
       "title": null
     },
     {
-      "mal_id": 51721,
-      "title": null
-    },
-    {
-      "mal_id": 51722,
-      "title": null
-    },
-    {
-      "mal_id": 51723,
-      "title": null
-    },
-    {
-      "mal_id": 51736,
-      "title": null
-    },
-    {
-      "mal_id": 51737,
-      "title": null
-    },
-    {
       "mal_id": 51738,
       "title": "Kakkou no Iikagen"
     },
@@ -65946,20 +65923,12 @@
       "title": "Kkoma Bus Tayo 6"
     },
     {
-      "mal_id": 51753,
-      "title": null
-    },
-    {
       "mal_id": 51754,
       "title": "Titipo Titipo 2"
     },
     {
       "mal_id": 51755,
       "title": "Titipo Titipo 3"
-    },
-    {
-      "mal_id": 51756,
-      "title": null
     },
     {
       "mal_id": 51757,
@@ -66038,10 +66007,6 @@
       "title": "Fake.Fake.Fake"
     },
     {
-      "mal_id": 51812,
-      "title": null
-    },
-    {
       "mal_id": 51813,
       "title": "Umi Yori Fukai Sora no Shita"
     },
@@ -66056,10 +66021,6 @@
     {
       "mal_id": 51819,
       "title": "Bibitto Love"
-    },
-    {
-      "mal_id": 51822,
-      "title": null
     },
     {
       "mal_id": 51823,
@@ -66095,10 +66056,6 @@
     },
     {
       "mal_id": 51848,
-      "title": null
-    },
-    {
-      "mal_id": 51849,
       "title": null
     },
     {
@@ -66182,16 +66139,8 @@
       "title": "The Finest"
     },
     {
-      "mal_id": 51893,
-      "title": null
-    },
-    {
       "mal_id": 51901,
       "title": "Chuukan Senshi Mr. Chun"
-    },
-    {
-      "mal_id": 51903,
-      "title": null
     },
     {
       "mal_id": 51910,
@@ -66210,24 +66159,12 @@
       "title": "Inochi wa Dare no Mono"
     },
     {
-      "mal_id": 51915,
-      "title": null
-    },
-    {
       "mal_id": 51919,
       "title": null
     },
     {
       "mal_id": 51920,
       "title": "Line Rangers (2018)"
-    },
-    {
-      "mal_id": 51921,
-      "title": null
-    },
-    {
-      "mal_id": 51922,
-      "title": null
     },
     {
       "mal_id": 51934,
@@ -66266,14 +66203,6 @@
       "title": "Zhui Meng Zhe"
     },
     {
-      "mal_id": 51974,
-      "title": null
-    },
-    {
-      "mal_id": 51988,
-      "title": null
-    },
-    {
       "mal_id": 51991,
       "title": "Amanchu!: Upyopyo Dive Tsukkome! Amazon no Sekai!"
     },
@@ -66284,10 +66213,6 @@
     {
       "mal_id": 52002,
       "title": "Seaside-sou no Aquakko"
-    },
-    {
-      "mal_id": 52003,
-      "title": null
     },
     {
       "mal_id": 52005,
@@ -66422,14 +66347,6 @@
       "title": "Haru ni Nattara Koguma no Yugo Monogatari"
     },
     {
-      "mal_id": 52102,
-      "title": null
-    },
-    {
-      "mal_id": 52104,
-      "title": null
-    },
-    {
       "mal_id": 52130,
       "title": "Yu Shen Chuan: Xun Zhao Shen Li"
     },
@@ -66526,10 +66443,6 @@
       "title": "Slam Dunk: Ketsui no Shouhoku Basket-bu"
     },
     {
-      "mal_id": 52162,
-      "title": null
-    },
-    {
       "mal_id": 52168,
       "title": "Kidou Senshi Gundam: Suisei no Majo - Prologue"
     },
@@ -66538,24 +66451,12 @@
       "title": "Shaonian Jinyiwei 2nd Season: Xuzhang"
     },
     {
-      "mal_id": 52185,
-      "title": null
-    },
-    {
       "mal_id": 52190,
       "title": "Monster (Music)"
     },
     {
       "mal_id": 52192,
       "title": "Kirin no Koushin"
-    },
-    {
-      "mal_id": 52195,
-      "title": null
-    },
-    {
-      "mal_id": 52197,
-      "title": null
     },
     {
       "mal_id": 52199,
@@ -66579,10 +66480,6 @@
     },
     {
       "mal_id": 52219,
-      "title": null
-    },
-    {
-      "mal_id": 52220,
       "title": null
     },
     {
@@ -66630,24 +66527,8 @@
       "title": "Himitsu no Pommepomme-chan"
     },
     {
-      "mal_id": 52244,
-      "title": null
-    },
-    {
-      "mal_id": 52245,
-      "title": null
-    },
-    {
       "mal_id": 52247,
       "title": "Cherry & Berry"
-    },
-    {
-      "mal_id": 52252,
-      "title": null
-    },
-    {
-      "mal_id": 52254,
-      "title": null
     },
     {
       "mal_id": 52259,
@@ -66658,32 +66539,8 @@
       "title": "Moffuri Mofu☆Mofu Omajinai Dance"
     },
     {
-      "mal_id": 52267,
-      "title": null
-    },
-    {
-      "mal_id": 52268,
-      "title": null
-    },
-    {
-      "mal_id": 52269,
-      "title": null
-    },
-    {
-      "mal_id": 52270,
-      "title": null
-    },
-    {
-      "mal_id": 52271,
-      "title": null
-    },
-    {
       "mal_id": 52275,
       "title": "Shitteiru Tegami"
-    },
-    {
-      "mal_id": 52281,
-      "title": null
     },
     {
       "mal_id": 52282,
@@ -66712,10 +66569,6 @@
     {
       "mal_id": 52304,
       "title": "Tensei Ringo"
-    },
-    {
-      "mal_id": 52307,
-      "title": null
     },
     {
       "mal_id": 52316,
@@ -66782,16 +66635,8 @@
       "title": "Panspermia"
     },
     {
-      "mal_id": 52355,
-      "title": null
-    },
-    {
       "mal_id": 52357,
       "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV Episode 0"
-    },
-    {
-      "mal_id": 52364,
-      "title": null
     },
     {
       "mal_id": 52365,
@@ -66846,10 +66691,6 @@
       "title": null
     },
     {
-      "mal_id": 52402,
-      "title": null
-    },
-    {
       "mal_id": 52407,
       "title": "Nippon-rettou Dokkoisho: 47 Todoufuken-mei Utai Komi"
     },
@@ -66862,27 +66703,7 @@
       "title": "Gekkou"
     },
     {
-      "mal_id": 52417,
-      "title": null
-    },
-    {
       "mal_id": 52433,
-      "title": null
-    },
-    {
-      "mal_id": 52438,
-      "title": null
-    },
-    {
-      "mal_id": 52440,
-      "title": null
-    },
-    {
-      "mal_id": 52443,
-      "title": null
-    },
-    {
-      "mal_id": 52450,
       "title": null
     },
     {
@@ -67014,10 +66835,6 @@
       "title": "Dizzy Dizzy"
     },
     {
-      "mal_id": 52561,
-      "title": null
-    },
-    {
       "mal_id": 52562,
       "title": "Kanojo, Okarishimasu Petit 2nd Season"
     },
@@ -67040,10 +66857,6 @@
     {
       "mal_id": 52571,
       "title": "BANZAI! digital trippers"
-    },
-    {
-      "mal_id": 52575,
-      "title": null
     },
     {
       "mal_id": 52576,
@@ -67100,10 +66913,6 @@
     {
       "mal_id": 52616,
       "title": "Shounen Sunday CM: Major"
-    },
-    {
-      "mal_id": 52617,
-      "title": null
     },
     {
       "mal_id": 52618,
@@ -67310,10 +67119,6 @@
       "title": "Goku Yoru"
     },
     {
-      "mal_id": 52717,
-      "title": null
-    },
-    {
       "mal_id": 52732,
       "title": "Ao no Butai ni Omoi wo Yosete"
     },
@@ -67338,10 +67143,6 @@
       "title": "Miraijin Go Home Bangai: Oyome ni Oide"
     },
     {
-      "mal_id": 52743,
-      "title": null
-    },
-    {
       "mal_id": 52744,
       "title": null
     },
@@ -67356,10 +67157,6 @@
     {
       "mal_id": 52751,
       "title": "Umayon Shinsaku Short Anime"
-    },
-    {
-      "mal_id": 52752,
-      "title": null
     },
     {
       "mal_id": 52753,
@@ -67444,10 +67241,6 @@
     {
       "mal_id": 52822,
       "title": "Kimi wa Houkago Insomnia PV"
-    },
-    {
-      "mal_id": 52823,
-      "title": null
     },
     {
       "mal_id": 52824,
@@ -67542,10 +67335,6 @@
       "title": "Greedy Steady"
     },
     {
-      "mal_id": 52859,
-      "title": null
-    },
-    {
       "mal_id": 52863,
       "title": "Onegai☆Teacher: Experience"
     },
@@ -67638,10 +67427,6 @@
       "title": "Aware! Meisaku-kun: Ryuuguuchuu-hen"
     },
     {
-      "mal_id": 52904,
-      "title": null
-    },
-    {
       "mal_id": 52906,
       "title": "Liti Beiju"
     },
@@ -67672,14 +67457,6 @@
     {
       "mal_id": 52921,
       "title": "One Piece: Densetsu no Log! Akagami no Shanks!"
-    },
-    {
-      "mal_id": 52923,
-      "title": null
-    },
-    {
-      "mal_id": 52924,
-      "title": null
     },
     {
       "mal_id": 52928,
@@ -67838,10 +67615,6 @@
       "title": "Bonus Track: Atarashii Yoru no Hanami"
     },
     {
-      "mal_id": 53017,
-      "title": null
-    },
-    {
       "mal_id": 53019,
       "title": null
     },
@@ -67902,10 +67675,6 @@
       "title": "Waochi! Short Anime"
     },
     {
-      "mal_id": 53038,
-      "title": null
-    },
-    {
       "mal_id": 53042,
       "title": "Bo & To's Family"
     },
@@ -67938,18 +67707,6 @@
       "title": "Otsukare Oyasumi, Yumeko."
     },
     {
-      "mal_id": 53060,
-      "title": null
-    },
-    {
-      "mal_id": 53061,
-      "title": null
-    },
-    {
-      "mal_id": 53062,
-      "title": null
-    },
-    {
       "mal_id": 53066,
       "title": "Wo He Xitieshi He Yige Siqu de Pengyou"
     },
@@ -67960,10 +67717,6 @@
     {
       "mal_id": 53069,
       "title": "Afternoon Class"
-    },
-    {
-      "mal_id": 53070,
-      "title": null
     },
     {
       "mal_id": 53071,
@@ -68026,10 +67779,6 @@
       "title": null
     },
     {
-      "mal_id": 53092,
-      "title": null
-    },
-    {
       "mal_id": 53093,
       "title": "Yakeni in the Rain"
     },
@@ -68058,10 +67807,6 @@
       "title": "Chunkun"
     },
     {
-      "mal_id": 53110,
-      "title": null
-    },
-    {
       "mal_id": 53112,
       "title": "Without U"
     },
@@ -68086,10 +67831,6 @@
       "title": "Pacalien"
     },
     {
-      "mal_id": 53122,
-      "title": null
-    },
-    {
       "mal_id": 53125,
       "title": null
     },
@@ -68108,10 +67849,6 @@
     {
       "mal_id": 53137,
       "title": "Watashi no Touchika"
-    },
-    {
-      "mal_id": 53138,
-      "title": null
     },
     {
       "mal_id": 53139,
@@ -68136,14 +67873,6 @@
     {
       "mal_id": 53156,
       "title": "Oni no Ko"
-    },
-    {
-      "mal_id": 53157,
-      "title": null
-    },
-    {
-      "mal_id": 53158,
-      "title": null
     },
     {
       "mal_id": 53161,
@@ -68182,14 +67911,6 @@
       "title": null
     },
     {
-      "mal_id": 53185,
-      "title": null
-    },
-    {
-      "mal_id": 53186,
-      "title": null
-    },
-    {
       "mal_id": 53187,
       "title": "Two Rooms"
     },
@@ -68218,20 +67939,12 @@
       "title": "Beauty Unique Boutique"
     },
     {
-      "mal_id": 53204,
-      "title": null
-    },
-    {
       "mal_id": 53207,
       "title": "Anata Yuzuri"
     },
     {
       "mal_id": 53208,
       "title": "A Walk With the Colors"
-    },
-    {
-      "mal_id": 53214,
-      "title": null
     },
     {
       "mal_id": 53216,
@@ -68250,10 +67963,6 @@
       "title": "Shouhu Lian Meng ROY6: Senlin Li de Minini"
     },
     {
-      "mal_id": 53229,
-      "title": null
-    },
-    {
       "mal_id": 53235,
       "title": "One Piece: Dai Tettei Kaibou! Gekitou! 5-nin no Shin Sedai"
     },
@@ -68270,24 +67979,12 @@
       "title": "PenPen"
     },
     {
-      "mal_id": 53246,
-      "title": null
-    },
-    {
       "mal_id": 53248,
       "title": "Shinmai Renkinjutsushi no Tenpo Keiei Mini Anime"
     },
     {
       "mal_id": 53254,
       "title": "Robomi"
-    },
-    {
-      "mal_id": 53257,
-      "title": null
-    },
-    {
-      "mal_id": 53258,
-      "title": null
     },
     {
       "mal_id": 53259,
@@ -68358,12 +68055,20 @@
       "title": "Terada Mokei x Pocari Sweat"
     },
     {
+      "mal_id": 53294,
+      "title": null
+    },
+    {
       "mal_id": 53298,
       "title": "Akui Sensou"
     },
     {
       "mal_id": 53299,
       "title": "It's All About You feat. Sirup"
+    },
+    {
+      "mal_id": 53314,
+      "title": null
     },
     {
       "mal_id": 53315,
@@ -68494,8 +68199,16 @@
       "title": "Melt"
     },
     {
+      "mal_id": 53425,
+      "title": null
+    },
+    {
       "mal_id": 53433,
       "title": "Aiue"
+    },
+    {
+      "mal_id": 53443,
+      "title": null
     },
     {
       "mal_id": 53445,
@@ -68510,6 +68223,10 @@
       "title": "Haru ni Nattara Koguma no Yugo Monogatari (Movie)"
     },
     {
+      "mal_id": 53492,
+      "title": null
+    },
+    {
       "mal_id": 53500,
       "title": "Nouvel Instrument"
     },
@@ -68520,6 +68237,10 @@
     {
       "mal_id": 53502,
       "title": "Catch"
+    },
+    {
+      "mal_id": 53506,
+      "title": null
     },
     {
       "mal_id": 53508,
@@ -68590,6 +68311,14 @@
       "title": "Shin Shinka no Mi Gekijou"
     },
     {
+      "mal_id": 53598,
+      "title": null
+    },
+    {
+      "mal_id": 53601,
+      "title": null
+    },
+    {
       "mal_id": 53603,
       "title": "Kidou Senshi Gundam: Suisei no Majo Recap"
     },
@@ -68638,12 +68367,24 @@
       "title": "Rat a Tat Writer"
     },
     {
+      "mal_id": 53650,
+      "title": null
+    },
+    {
       "mal_id": 53654,
       "title": null
     },
     {
       "mal_id": 53657,
       "title": "Kirameke! Vivacious Dash♡"
+    },
+    {
+      "mal_id": 53658,
+      "title": null
+    },
+    {
+      "mal_id": 53659,
+      "title": null
     },
     {
       "mal_id": 53662,
@@ -68655,6 +68396,10 @@
     },
     {
       "mal_id": 53665,
+      "title": null
+    },
+    {
+      "mal_id": 53666,
       "title": null
     },
     {
@@ -68686,8 +68431,20 @@
       "title": "Shanhai Jing: Zaijian Gaoshou"
     },
     {
+      "mal_id": 53677,
+      "title": null
+    },
+    {
+      "mal_id": 53678,
+      "title": null
+    },
+    {
       "mal_id": 53679,
       "title": "Summer is Over feat. Mai Anna"
+    },
+    {
+      "mal_id": 53682,
+      "title": null
     },
     {
       "mal_id": 53684,
@@ -68718,8 +68475,20 @@
       "title": "Saigo dato Wakatte Ita Nara"
     },
     {
+      "mal_id": 53700,
+      "title": null
+    },
+    {
+      "mal_id": 53702,
+      "title": null
+    },
+    {
       "mal_id": 53703,
       "title": "Tsukasa's♪Kitchen"
+    },
+    {
+      "mal_id": 53705,
+      "title": null
     },
     {
       "mal_id": 53709,
@@ -68736,6 +68505,26 @@
     {
       "mal_id": 53712,
       "title": "Saiki Kusuo no Ψ-nan Manner Movie"
+    },
+    {
+      "mal_id": 53717,
+      "title": null
+    },
+    {
+      "mal_id": 53718,
+      "title": null
+    },
+    {
+      "mal_id": 53721,
+      "title": null
+    },
+    {
+      "mal_id": 53724,
+      "title": null
+    },
+    {
+      "mal_id": 53725,
+      "title": null
     },
     {
       "mal_id": 53726,
@@ -68766,6 +68555,10 @@
       "title": "Chokuyaku aespa"
     },
     {
+      "mal_id": 53740,
+      "title": null
+    },
+    {
       "mal_id": 53744,
       "title": null
     },
@@ -68786,6 +68579,10 @@
       "title": "Ad Meliora"
     },
     {
+      "mal_id": 53754,
+      "title": null
+    },
+    {
       "mal_id": 53755,
       "title": "Organic Circle"
     },
@@ -68802,8 +68599,20 @@
       "title": "Ukiwa"
     },
     {
+      "mal_id": 53759,
+      "title": null
+    },
+    {
       "mal_id": 53767,
       "title": "Uracon II Opening Animation"
+    },
+    {
+      "mal_id": 53773,
+      "title": null
+    },
+    {
+      "mal_id": 53774,
+      "title": null
     },
     {
       "mal_id": 53776,
@@ -68811,6 +68620,10 @@
     },
     {
       "mal_id": 53779,
+      "title": null
+    },
+    {
+      "mal_id": 53781,
       "title": null
     },
     {
@@ -68824,6 +68637,10 @@
     {
       "mal_id": 53789,
       "title": "32"
+    },
+    {
+      "mal_id": 53790,
+      "title": null
     },
     {
       "mal_id": 53817,
@@ -68874,12 +68691,24 @@
       "title": "Aimai na Mama"
     },
     {
+      "mal_id": 53844,
+      "title": null
+    },
+    {
       "mal_id": 53856,
       "title": "Shouhu Lian Meng ROY6: Baobao Senlin de Maoxian"
     },
     {
       "mal_id": 53858,
       "title": "Kira Killer"
+    },
+    {
+      "mal_id": 53866,
+      "title": null
+    },
+    {
+      "mal_id": 53867,
+      "title": null
     },
     {
       "mal_id": 53873,
@@ -68900,6 +68729,10 @@
     {
       "mal_id": 53890,
       "title": "One Piece: Dai Gekisen Tokushuu! Mugiwara no Ichimi vs. Tobi Roppou"
+    },
+    {
+      "mal_id": 53895,
+      "title": null
     },
     {
       "mal_id": 53901,
@@ -68980,6 +68813,10 @@
     {
       "mal_id": 53945,
       "title": "Sore Ike! Anpanman: Hoshizora wo Kaese"
+    },
+    {
+      "mal_id": 53946,
+      "title": null
     },
     {
       "mal_id": 53948,
@@ -69134,6 +68971,14 @@
       "title": "J Sports ID (Masanobu Hiraoka)"
     },
     {
+      "mal_id": 54012,
+      "title": null
+    },
+    {
+      "mal_id": 54015,
+      "title": null
+    },
+    {
       "mal_id": 54016,
       "title": null
     },
@@ -69144,6 +68989,10 @@
     {
       "mal_id": 54024,
       "title": "Samurai Mac"
+    },
+    {
+      "mal_id": 54027,
+      "title": null
     },
     {
       "mal_id": 54030,
@@ -69254,6 +69103,10 @@
       "title": "Kanojo, Okarishimasu 2nd Season: Kanokari Call"
     },
     {
+      "mal_id": 54076,
+      "title": null
+    },
+    {
       "mal_id": 54077,
       "title": null
     },
@@ -69330,12 +69183,24 @@
       "title": "Ienai feat. asmi"
     },
     {
+      "mal_id": 54101,
+      "title": null
+    },
+    {
       "mal_id": 54102,
       "title": "Okaasan"
     },
     {
       "mal_id": 54105,
       "title": "The☆Doraemons: Mystery X'Mass Daisakusen"
+    },
+    {
+      "mal_id": 54107,
+      "title": null
+    },
+    {
+      "mal_id": 54108,
+      "title": null
     },
     {
       "mal_id": 54109,
@@ -69530,6 +69395,10 @@
       "title": "Shinmai Renkinjutsushi no Tenpo Keiei Mini Anime: Onsen"
     },
     {
+      "mal_id": 54225,
+      "title": null
+    },
+    {
       "mal_id": 54227,
       "title": null
     },
@@ -69552,6 +69421,10 @@
     {
       "mal_id": 54242,
       "title": "Natsu"
+    },
+    {
+      "mal_id": 54245,
+      "title": null
     },
     {
       "mal_id": 54247,
@@ -69622,6 +69495,10 @@
       "title": "NHK Special Kyouryuu VS Honyuurui: 1-oku 5-senman Toshi no Tatakai"
     },
     {
+      "mal_id": 54281,
+      "title": null
+    },
+    {
       "mal_id": 54282,
       "title": "Datte Kyou made Koiwazurai"
     },
@@ -69670,8 +69547,16 @@
       "title": null
     },
     {
+      "mal_id": 54308,
+      "title": null
+    },
+    {
       "mal_id": 54312,
       "title": "Yuanshen: Hai Dengjie CM Duanpian - Ming Xiao Huanmeng"
+    },
+    {
+      "mal_id": 54313,
+      "title": null
     },
     {
       "mal_id": 54316,
@@ -69690,8 +69575,20 @@
       "title": null
     },
     {
+      "mal_id": 54323,
+      "title": null
+    },
+    {
+      "mal_id": 54324,
+      "title": null
+    },
+    {
       "mal_id": 54329,
       "title": "Bloom Up"
+    },
+    {
+      "mal_id": 54331,
+      "title": null
     },
     {
       "mal_id": 54334,
@@ -69718,6 +69615,10 @@
       "title": "Kyou, Watashi no Monogatari ga Hashirimasu."
     },
     {
+      "mal_id": 54353,
+      "title": null
+    },
+    {
       "mal_id": 54354,
       "title": "Tobidasu Ojarumaru 3D: Maro wa Ousama"
     },
@@ -69728,6 +69629,10 @@
     {
       "mal_id": 54359,
       "title": "Tsumurin: Funkoro Yakata ni Okurimono"
+    },
+    {
+      "mal_id": 54360,
+      "title": null
     },
     {
       "mal_id": 54361,
@@ -69748,6 +69653,10 @@
     {
       "mal_id": 54369,
       "title": "Persona (Music)"
+    },
+    {
+      "mal_id": 54375,
+      "title": null
     },
     {
       "mal_id": 54380,
@@ -69794,11 +69703,23 @@
       "title": null
     },
     {
+      "mal_id": 54411,
+      "title": null
+    },
+    {
       "mal_id": 54412,
       "title": null
     },
     {
       "mal_id": 54413,
+      "title": null
+    },
+    {
+      "mal_id": 54415,
+      "title": null
+    },
+    {
+      "mal_id": 54416,
       "title": null
     },
     {
@@ -69810,6 +69731,14 @@
       "title": "Nyuugaku Junbi DVD: Ren no Yume to Suteki na Christmas Present"
     },
     {
+      "mal_id": 54419,
+      "title": null
+    },
+    {
+      "mal_id": 54420,
+      "title": null
+    },
+    {
       "mal_id": 54421,
       "title": "Wakuwaku Hakubutsukan Adventure"
     },
@@ -69818,7 +69747,19 @@
       "title": "Maru-neun Gangjwi (Music)"
     },
     {
+      "mal_id": 54424,
+      "title": null
+    },
+    {
       "mal_id": 54425,
+      "title": null
+    },
+    {
+      "mal_id": 54426,
+      "title": null
+    },
+    {
+      "mal_id": 54427,
       "title": null
     },
     {
@@ -69866,11 +69807,19 @@
       "title": "Sonzai"
     },
     {
+      "mal_id": 54456,
+      "title": null
+    },
+    {
       "mal_id": 54458,
       "title": "Future Eve"
     },
     {
       "mal_id": 54460,
+      "title": null
+    },
+    {
+      "mal_id": 54461,
       "title": null
     },
     {
@@ -69986,6 +69935,10 @@
       "title": "Stupid Love feat. Crush"
     },
     {
+      "mal_id": 54519,
+      "title": null
+    },
+    {
       "mal_id": 54521,
       "title": "Tomboy"
     },
@@ -69996,6 +69949,10 @@
     {
       "mal_id": 54525,
       "title": "Nabiya feat. ZION.T"
+    },
+    {
+      "mal_id": 54534,
+      "title": null
     },
     {
       "mal_id": 54536,
@@ -70012,6 +69969,10 @@
     {
       "mal_id": 54540,
       "title": "Kamikaze"
+    },
+    {
+      "mal_id": 54541,
+      "title": null
     },
     {
       "mal_id": 54545,
@@ -70090,6 +70051,14 @@
       "title": null
     },
     {
+      "mal_id": 54573,
+      "title": null
+    },
+    {
+      "mal_id": 54574,
+      "title": null
+    },
+    {
       "mal_id": 54575,
       "title": "Wo Shi Zhi Xiao Xiaoniao (2013)"
     },
@@ -70106,12 +70075,32 @@
       "title": "Shirokuma Nichijou Gekijou"
     },
     {
+      "mal_id": 54583,
+      "title": null
+    },
+    {
       "mal_id": 54596,
       "title": "Kamisama: Nekosama"
     },
     {
       "mal_id": 54618,
       "title": "Awakening (2020)"
+    },
+    {
+      "mal_id": 54622,
+      "title": null
+    },
+    {
+      "mal_id": 54623,
+      "title": null
+    },
+    {
+      "mal_id": 54629,
+      "title": null
+    },
+    {
+      "mal_id": 54636,
+      "title": null
     },
     {
       "mal_id": 54643,
@@ -70170,8 +70159,16 @@
       "title": "Dennou"
     },
     {
+      "mal_id": 54683,
+      "title": null
+    },
+    {
       "mal_id": 54684,
       "title": "Soushoku Dragon Chokotto"
+    },
+    {
+      "mal_id": 54692,
+      "title": null
     },
     {
       "mal_id": 54709,
@@ -70302,6 +70299,10 @@
       "title": "Sakuretsu! Amabie-hime. Season 2"
     },
     {
+      "mal_id": 54849,
+      "title": null
+    },
+    {
       "mal_id": 54864,
       "title": "Meitantei Conan: Keisatsu Gakkou-hen Wild Police Story - Case. Furuya Rei"
     },
@@ -70366,12 +70367,20 @@
       "title": null
     },
     {
+      "mal_id": 54907,
+      "title": null
+    },
+    {
       "mal_id": 54909,
       "title": "Mahou no Nai Sekai de Ikiru to Iu Koto"
     },
     {
       "mal_id": 54911,
       "title": "Seventeen"
+    },
+    {
+      "mal_id": 54912,
+      "title": null
     },
     {
       "mal_id": 54917,
@@ -70410,6 +70419,10 @@
       "title": "Chang An San Wan Li"
     },
     {
+      "mal_id": 54953,
+      "title": null
+    },
+    {
       "mal_id": 54972,
       "title": null
     },
@@ -70436,6 +70449,10 @@
     {
       "mal_id": 54996,
       "title": "Akuyaku Mahou Shoujo Midoro"
+    },
+    {
+      "mal_id": 55003,
+      "title": null
     },
     {
       "mal_id": 55004,
@@ -77548,10 +77565,6 @@
     {
       "mal_id": 59684,
       "title": "Ready for Love"
-    },
-    {
-      "mal_id": 59685,
-      "title": "Yongisanda"
     },
     {
       "mal_id": 59687,
