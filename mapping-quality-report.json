@@ -13011,7 +13011,13 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 112008,
+          "mal_id": 39581
+        }
+      ]
     },
     {
       "anilist_id": 106541,
@@ -13123,7 +13129,18 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 101425,
+          "mal_id": 37484
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 118630,
+          "mal_id": 41529
+        }
+      ]
     },
     {
       "anilist_id": 108734,
@@ -13335,7 +13352,18 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 112004,
+          "mal_id": 38549
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 116320,
+          "mal_id": 41401
+        }
+      ]
     },
     {
       "anilist_id": 9952,
@@ -13497,7 +13525,18 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "PREQUEL",
+          "anilist_id": 119403,
+          "mal_id": 42055
+        },
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 172966,
+          "mal_id": 54197
+        }
+      ]
     },
     {
       "anilist_id": 111310,
@@ -13506,7 +13545,13 @@
         "season.tvdb",
         "season.tmdb"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 130777,
+          "mal_id": 44273
+        }
+      ]
     },
     {
       "anilist_id": 103705,
@@ -17324,7 +17369,13 @@
         "imdb_id",
         "themoviedb_id"
       ],
-      "relations": []
+      "relations": [
+        {
+          "relation": "SEQUEL",
+          "anilist_id": 101594,
+          "mal_id": 37476
+        }
+      ]
     },
     {
       "anilist_id": 109260,
