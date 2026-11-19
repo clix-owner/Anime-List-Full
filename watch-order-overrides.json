@@ -1,0 +1,108 @@
+[
+  {
+    "franchise_id": "steins-gate",
+    "franchise_name": "Steins;Gate",
+    "release_order": [
+      { "mal_id": 9253, "title": "Steins;Gate", "type": "TV", "essential": true },
+      { "mal_id": 10863, "title": "Steins;Gate: Egoistic Poriomania", "type": "OVA", "essential": false },
+      { "mal_id": 11577, "title": "Steins;Gate: The Movie - Load Region of Déjà Vu", "type": "MOVIE", "essential": false },
+      { "mal_id": 32188, "title": "Steins;Gate: Open the Missing Link (23β)", "type": "SPECIAL", "essential": true },
+      { "mal_id": 30484, "title": "Steins;Gate 0", "type": "TV", "essential": true }
+    ],
+    "chronological_order": [
+      { "mal_id": 9253, "title": "Steins;Gate", "episodes": "1-22", "type": "TV", "essential": true },
+      { "mal_id": 32188, "title": "Steins;Gate: Open the Missing Link (23β)", "type": "SPECIAL", "essential": true },
+      { "mal_id": 30484, "title": "Steins;Gate 0", "type": "TV", "essential": true },
+      { "mal_id": 9253, "title": "Steins;Gate", "episodes": "23-24", "type": "TV", "essential": true },
+      { "mal_id": 10863, "title": "Steins;Gate: Egoistic Poriomania", "type": "OVA", "essential": false },
+      { "mal_id": 11577, "title": "Steins;Gate: The Movie - Load Region of Déjà Vu", "type": "MOVIE", "essential": false }
+    ]
+  },
+  {
+    "franchise_id": "attack-on-titan",
+    "franchise_name": "Attack on Titan",
+    "release_order": [
+      { "mal_id": 16498, "title": "Attack on Titan", "type": "TV", "essential": true },
+      { "mal_id": 18397, "title": "Attack on Titan OVA (Ilse's Notebook / Sudden Visitor / Distress)", "type": "OVA", "essential": true },
+      { "mal_id": 25777, "title": "Attack on Titan Season 2", "type": "TV", "essential": true },
+      { "mal_id": 35760, "title": "Attack on Titan Season 3", "type": "TV", "essential": true },
+      { "mal_id": 38524, "title": "Attack on Titan Season 3 Part 2", "type": "TV", "essential": true },
+      { "mal_id": 40028, "title": "Attack on Titan: The Final Season", "type": "TV", "essential": true },
+      { "mal_id": 48583, "title": "Attack on Titan: The Final Season Part 2", "type": "TV", "essential": true },
+      { "mal_id": 51535, "title": "Attack on Titan: The Final Season - The Final Chapters", "type": "SPECIAL", "essential": true }
+    ],
+    "chronological_order": [
+      { "mal_id": 16498, "title": "Attack on Titan", "type": "TV", "essential": true },
+      { "mal_id": 18397, "title": "Attack on Titan OVA (Ilse's Notebook)", "episodes": "1", "type": "OVA", "essential": true },
+      { "mal_id": 25777, "title": "Attack on Titan Season 2", "type": "TV", "essential": true },
+      { "mal_id": 35760, "title": "Attack on Titan Season 3", "type": "TV", "essential": true },
+      { "mal_id": 38524, "title": "Attack on Titan Season 3 Part 2", "type": "TV", "essential": true },
+      { "mal_id": 40028, "title": "Attack on Titan: The Final Season", "type": "TV", "essential": true },
+      { "mal_id": 48583, "title": "Attack on Titan: The Final Season Part 2", "type": "TV", "essential": true },
+      { "mal_id": 51535, "title": "Attack on Titan: The Final Season - The Final Chapters", "type": "SPECIAL", "essential": true }
+    ]
+  },
+  {
+    "franchise_id": "fate-stay-night",
+    "franchise_name": "Fate Series (Main Stay Night / Zero)",
+    "release_order": [
+      { "mal_id": 356, "title": "Fate/stay night (2006)", "type": "TV", "essential": false },
+      { "mal_id": 10087, "title": "Fate/Zero", "type": "TV", "essential": true },
+      { "mal_id": 22297, "title": "Fate/stay night: Unlimited Blade Works", "type": "TV", "essential": true },
+      { "mal_id": 25537, "title": "Fate/stay night: Heaven's Feel - I. Presage Flower", "type": "MOVIE", "essential": true },
+      { "mal_id": 33049, "title": "Fate/stay night: Heaven's Feel - II. Lost Butterfly", "type": "MOVIE", "essential": true },
+      { "mal_id": 33050, "title": "Fate/stay night: Heaven's Feel - III. Spring Song", "type": "MOVIE", "essential": true }
+    ],
+    "chronological_order": [
+      { "mal_id": 10087, "title": "Fate/Zero", "type": "TV", "essential": true },
+      { "mal_id": 22297, "title": "Fate/stay night: Unlimited Blade Works", "type": "TV", "essential": true },
+      { "mal_id": 25537, "title": "Fate/stay night: Heaven's Feel - I. Presage Flower", "type": "MOVIE", "essential": true },
+      { "mal_id": 33049, "title": "Fate/stay night: Heaven's Feel - II. Lost Butterfly", "type": "MOVIE", "essential": true },
+      { "mal_id": 33050, "title": "Fate/stay night: Heaven's Feel - III. Spring Song", "type": "MOVIE", "essential": true }
+    ]
+  },
+  {
+    "franchise_id": "monogatari",
+    "franchise_name": "Monogatari Series",
+    "release_order": [
+      { "mal_id": 5081, "title": "Bakemonogatari", "type": "TV", "essential": true },
+      { "mal_id": 11597, "title": "Nisemonogatari", "type": "TV", "essential": true },
+      { "mal_id": 15689, "title": "Nekomonogatari: Kuro", "type": "SPECIAL", "essential": true },
+      { "mal_id": 17074, "title": "Monogatari Series: Second Season", "type": "TV", "essential": true },
+      { "mal_id": 28025, "title": "Tsukimonogatari", "type": "SPECIAL", "essential": true },
+      { "mal_id": 31181, "title": "Owarimonogatari", "type": "TV", "essential": true },
+      { "mal_id": 9260, "title": "Kizumonogatari I: Tekketsu-hen", "type": "MOVIE", "essential": true },
+      { "mal_id": 32268, "title": "Koyomimonogatari", "type": "ONA", "essential": true }
+    ],
+    "chronological_order": [
+      { "mal_id": 9260, "title": "Kizumonogatari Trilogy", "type": "MOVIE", "essential": true },
+      { "mal_id": 15689, "title": "Nekomonogatari: Kuro", "type": "SPECIAL", "essential": true },
+      { "mal_id": 5081, "title": "Bakemonogatari", "type": "TV", "essential": true },
+      { "mal_id": 11597, "title": "Nisemonogatari", "type": "TV", "essential": true },
+      { "mal_id": 17074, "title": "Monogatari Series: Second Season", "type": "TV", "essential": true },
+      { "mal_id": 28025, "title": "Tsukimonogatari", "type": "SPECIAL", "essential": true },
+      { "mal_id": 31181, "title": "Owarimonogatari", "type": "TV", "essential": true },
+      { "mal_id": 32268, "title": "Koyomimonogatari", "type": "ONA", "essential": true }
+    ]
+  },
+  {
+    "franchise_id": "danmachi",
+    "franchise_name": "Is It Wrong to Try to Pick Up Girls in a Dungeon? (DanMachi)",
+    "release_order": [
+      { "mal_id": 28121, "title": "DanMachi Season 1", "type": "TV", "essential": true },
+      { "mal_id": 32887, "title": "Sword Oratoria: DanMachi Side Story", "type": "TV", "essential": false },
+      { "mal_id": 37347, "title": "DanMachi II", "type": "TV", "essential": true },
+      { "mal_id": 40911, "title": "DanMachi III", "type": "TV", "essential": true },
+      { "mal_id": 47164, "title": "DanMachi IV", "type": "TV", "essential": true },
+      { "mal_id": 57066, "title": "DanMachi V", "type": "TV", "essential": true }
+    ],
+    "chronological_order": [
+      { "mal_id": 28121, "title": "DanMachi Season 1", "type": "TV", "essential": true },
+      { "mal_id": 32887, "title": "Sword Oratoria: DanMachi Side Story", "type": "TV", "essential": false },
+      { "mal_id": 37347, "title": "DanMachi II", "type": "TV", "essential": true },
+      { "mal_id": 40911, "title": "DanMachi III", "type": "TV", "essential": true },
+      { "mal_id": 47164, "title": "DanMachi IV", "type": "TV", "essential": true },
+      { "mal_id": 57066, "title": "DanMachi V", "type": "TV", "essential": true }
+    ]
+  }
+]

@@ -231,7 +231,8 @@ jobs:
             build-diagnostics.json \
             build-state.json \
             mapping-quality-report.json \
-            anime-relations.json
+            anime-relations.json \
+            watch-orders.json
 
           if git diff --cached --quiet; then
             echo "No dataset/state changes."

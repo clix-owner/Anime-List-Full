@@ -25,7 +25,17 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 import xml.etree.ElementTree as ET
 import requests
-from mapping_quality import refresh_relations, apply_overrides, quality_report, verify_tmdb_overrides
+from mapping_quality import (
+    apply_overrides,
+    apply_wikidata_mappings,
+    build_watch_orders,
+    enrich_missing_tmdb_mappings,
+    fetch_wikidata_mappings,
+    prune_orphan_rows,
+    quality_report,
+    refresh_relations,
+    verify_tmdb_overrides,
+)
 
 MAL_API = "https://api.myanimelist.net/v2"
 BUILDER_VERSION = "v12.0-conservative-season-mappings"
@@ -1364,6 +1374,57 @@ def main():
             )
         log(f"Latest Fribb reconciliation: PASS ({len(fribb_rows)} baseline rows represented)")
 
+    rows, orphan_pruned = prune_orphan_rows(rows, fribb_rows)
+    diag["orphan_rows_pruned"] = orphan_pruned
+    log(f"Orphan row pruning: removed={orphan_pruned}, remaining={len(rows)}")
+
+    wikidata_filled = 0
+    if os.getenv("ENABLE_WIKIDATA", "1") == "1":
+        wd_map = fetch_wikidata_mappings(WORK_CACHE_DIR / "wikidata-cache.json")
+        wikidata_filled = apply_wikidata_mappings(rows, wd_map)
+        log(f"Wikidata cross-link enrichment: rows_updated={wikidata_filled}")
+    diag["wikidata_enriched"] = wikidata_filled
+
+    tmdb_auto_filled = 0
+    if TMDB_API_KEY:
+        def _title_year_for_row(r):
+            mid = parse_int(r.get("mal_id"))
+            aid = parse_int(r.get("anilist_id"))
+            titles = []
+            year = None
+            mnode = mal.get(mid) if mid is not None else None
+            if mnode:
+                for k in ("title", "en", "ja"):
+                    if mnode.get(k):
+                        titles.append(mnode[k])
+                titles.extend(mnode.get("synonyms") or [])
+                sd = mnode.get("start_date") or ""
+                if len(sd) >= 4 and sd[:4].isdigit():
+                    year = int(sd[:4])
+            anode = official_anilist.get(aid) if aid is not None else None
+            if anode:
+                t = anode.get("title") or {}
+                for k in ("english", "romaji", "native"):
+                    if t.get(k):
+                        titles.append(t[k])
+                if not year and isinstance(anode.get("seasonYear"), int):
+                    year = anode["seasonYear"]
+            return {"titles": list(dict.fromkeys(titles)), "year": year}
+
+        tmdb_auto_filled = enrich_missing_tmdb_mappings(
+            rows,
+            _title_year_for_row,
+            tmdb_get,
+            WORK_CACHE_DIR / "tmdb-auto-cache.json",
+            limit=int(os.getenv("TMDB_AUTO_RESOLVE_LIMIT", "400")),
+        )
+        log(f"TMDB auto-enrichment: rows_updated={tmdb_auto_filled}")
+    diag["tmdb_auto_enriched"] = tmdb_auto_filled
+
+    if wikidata_filled or tmdb_auto_filled:
+        sanitize_identity_collisions(rows, fribb_rows)
+        assert_unique_identity_ids(rows)
+
     overrides_path = Path("mapping-overrides.json")
     overrides = json.loads(overrides_path.read_text(encoding="utf-8")) if overrides_path.exists() else []
     if not isinstance(overrides, list):
@@ -1374,16 +1435,24 @@ def main():
         rows,
         lambda **kwargs: requests.post(ANILIST_API, headers={"Content-Type": "application/json", "Accept": "application/json"}, timeout=30, **kwargs),
         WORK_CACHE_DIR / "anilist-relations.json",
-        limit=int(os.getenv("ANILIST_RELATION_DAILY_LIMIT", "100")),
+        limit=int(os.getenv("ANILIST_RELATION_DAILY_LIMIT", "2500")),
+        include_all_types=True,
     )
     report = quality_report(rows, relation_cache, override_events, relation_failures)
     report["tmdb_override_verification"] = verify_tmdb_overrides(rows, overrides, tmdb_get)
     write_json(Path("mapping-quality-report.json"), report, True)
     write_json(Path("anime-relations.json"), {"schema_version": 1, "entries": relation_cache}, True)
+
+    watch_overrides_path = Path("watch-order-overrides.json")
+    watch_overrides = json.loads(watch_overrides_path.read_text(encoding="utf-8")) if watch_overrides_path.exists() else []
+    watch_orders = build_watch_orders(rows, relation_cache, watch_overrides)
+    write_json(Path("watch-orders.json"), watch_orders, True)
+
     diag["mapping_quality"] = {
         "incomplete_tv_mappings": len(report["incomplete_tv_mappings"]),
         "override_conflicts": sum(e["status"] == "conflict_preserved" for e in override_events),
         "relation_fetch_failures": len(relation_failures),
+        "watch_order_franchises": watch_orders["franchise_count"],
     }
 
     record_hashes = {}
