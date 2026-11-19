@@ -1389,26 +1389,19 @@ def main():
     if TMDB_API_KEY:
         def _title_year_for_row(r):
             mid = parse_int(r.get("mal_id"))
-            aid = parse_int(r.get("anilist_id"))
             titles = []
             year = None
             mnode = mal.get(mid) if mid is not None else None
-            if mnode:
-                for k in ("title", "en", "ja"):
-                    if mnode.get(k):
-                        titles.append(mnode[k])
-                titles.extend(mnode.get("synonyms") or [])
-                sd = mnode.get("start_date") or ""
+            if isinstance(mnode, dict):
+                alt = mnode.get("alternative_titles") or {}
+                for v in (mnode.get("title"), alt.get("en"), alt.get("ja"), *(alt.get("synonyms") or [])):
+                    if isinstance(v, str) and v.strip():
+                        titles.append(v.strip())
+                sd = str(mnode.get("start_date") or "")
                 if len(sd) >= 4 and sd[:4].isdigit():
                     year = int(sd[:4])
-            anode = official_anilist.get(aid) if aid is not None else None
-            if anode:
-                t = anode.get("title") or {}
-                for k in ("english", "romaji", "native"):
-                    if t.get(k):
-                        titles.append(t[k])
-                if not year and isinstance(anode.get("seasonYear"), int):
-                    year = anode["seasonYear"]
+                elif isinstance((mnode.get("start_season") or {}).get("year"), int):
+                    year = mnode["start_season"]["year"]
             return {"titles": list(dict.fromkeys(titles)), "year": year}
 
         tmdb_auto_filled = enrich_missing_tmdb_mappings(
