@@ -273,7 +273,7 @@ def enrich_missing_tmdb_mappings(rows, title_year_lookup, tmdb_get, cache_path, 
                     res["imdb_id"] = [ext["imdb_id"]]
             elif titles:
                 endpoint = "/search/movie" if rtype == "MOVIE" else "/search/tv"
-                search_res = tmdb_get(endpoint, query=titles[0]) or {}
+                search_res = tmdb_get(endpoint, params={"query": titles[0]}) or {}
                 norm_candidates = {_norm_title(t) for t in titles if _norm_title(t)}
                 best = None
                 for item in search_res.get("results", [])[:8]:
