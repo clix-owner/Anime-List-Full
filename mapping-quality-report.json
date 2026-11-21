@@ -9028,7 +9028,7 @@
       "missing": [
         "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": [
         {
@@ -9123,8 +9123,8 @@
       "mal_id": 22099,
       "missing": [
         "imdb_id",
-        "themoviedb_id",
-        "season.tvdb"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9198,9 +9198,9 @@
       "anilist_id": 20957,
       "mal_id": 22849,
       "missing": [
-        "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9217,9 +9217,8 @@
       "anilist_id": 20699,
       "mal_id": 22735,
       "missing": [
-        "tvdb_id",
-        "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9254,7 +9253,7 @@
       "missing": [
         "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": [
         {
@@ -9275,7 +9274,7 @@
       "missing": [
         "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9316,7 +9315,7 @@
       "missing": [
         "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": [
         {
@@ -9342,7 +9341,7 @@
       "missing": [
         "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9386,7 +9385,7 @@
       "missing": [
         "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9462,9 +9461,8 @@
       "anilist_id": 20873,
       "mal_id": 27785,
       "missing": [
-        "tvdb_id",
-        "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9474,7 +9472,7 @@
       "missing": [
         "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9548,8 +9546,8 @@
       "anilist_id": 21020,
       "mal_id": 27737,
       "missing": [
-        "themoviedb_id",
-        "season.tvdb"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9577,9 +9575,9 @@
       "anilist_id": 21037,
       "mal_id": 29846,
       "missing": [
-        "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9663,7 +9661,7 @@
       "missing": [
         "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -9876,9 +9874,9 @@
       "anilist_id": 21353,
       "mal_id": 31555,
       "missing": [
-        "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": [
         {
@@ -9981,7 +9979,7 @@
       "missing": [
         "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -10241,8 +10239,8 @@
       "anilist_id": 21601,
       "mal_id": 32571,
       "missing": [
-        "themoviedb_id",
-        "season.tvdb"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": [
         {
@@ -10273,7 +10271,7 @@
       "missing": [
         "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -10281,8 +10279,8 @@
       "anilist_id": 21635,
       "mal_id": 32670,
       "missing": [
-        "tvdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -10379,9 +10377,9 @@
       "anilist_id": 9433,
       "mal_id": 9433,
       "missing": [
-        "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -10795,9 +10793,9 @@
       "anilist_id": 126910,
       "mal_id": 34488,
       "missing": [
-        "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": [
         {
@@ -10811,9 +10809,9 @@
       "anilist_id": 102940,
       "mal_id": 34502,
       "missing": [
-        "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": [
         {
@@ -10848,8 +10846,8 @@
       "anilist_id": 98231,
       "mal_id": 34866,
       "missing": [
-        "themoviedb_id",
-        "season.tvdb"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -10929,9 +10927,9 @@
       "anilist_id": 98077,
       "mal_id": 34741,
       "missing": [
-        "tvdb_id",
         "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -11067,7 +11065,7 @@
       "mal_id": 34928,
       "missing": [
         "tvdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -11115,9 +11113,8 @@
       "anilist_id": 103425,
       "mal_id": 36423,
       "missing": [
-        "tvdb_id",
-        "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": [
         {
@@ -11468,9 +11465,8 @@
       "anilist_id": 183420,
       "mal_id": 36073,
       "missing": [
-        "tvdb_id",
-        "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -11854,9 +11850,8 @@
       "anilist_id": 100910,
       "mal_id": 36552,
       "missing": [
-        "tvdb_id",
-        "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -11899,8 +11894,7 @@
       "mal_id": 32230,
       "missing": [
         "tvdb_id",
-        "imdb_id",
-        "themoviedb_id"
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -11908,8 +11902,8 @@
       "anilist_id": 102661,
       "mal_id": 20945,
       "missing": [
-        "themoviedb_id",
-        "season.tvdb"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -11973,9 +11967,8 @@
       "anilist_id": 102236,
       "mal_id": 31427,
       "missing": [
-        "tvdb_id",
-        "imdb_id",
-        "themoviedb_id"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": []
     },
@@ -12193,8 +12186,8 @@
       "anilist_id": 109870,
       "mal_id": 35541,
       "missing": [
-        "themoviedb_id",
-        "season.tvdb"
+        "season.tvdb",
+        "season.tmdb"
       ],
       "relations": [
         {
